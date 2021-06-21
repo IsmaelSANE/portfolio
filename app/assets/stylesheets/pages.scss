@@ -9,7 +9,7 @@
 .main {
   width: 100%;
 }
-
+//HEADER//
 
  ul {
   list-style: none;
@@ -44,7 +44,6 @@
     }
   }
 }
-
 .name h1 {
   color: #000;
   font-size: 18px;
@@ -53,6 +52,8 @@
   margin: 0;
   text-align: left;
 }
+
+//HOME PAGE//
 .home .jumbotron {
   background: image-url('alexis-unsplash.jpg') center center;
   background-size: cover;
@@ -88,6 +89,65 @@ a.btn {
     width: 200px;
 }
 
+//PORTFOLIO PAGE//
+
+.portfolio .jumbotron {
+    height: 500px;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+}
+
+.portfolio .slide {
+    height: 500px;
+    overflow: hidden;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    width: 100%;
+}
+
+.thumbnail-header {
+    background-color: #eaeff4;
+    display: block;
+    height: 20px;
+    width: 100%;
+}
+.thumbnail-header-btn {
+    background-color: #fff;
+    border-radius: 100%;
+    float: left;
+    height: 10px;
+    margin: 5px 0 0 5px;
+    width: 10px;
+}
+
+.thumbnail {
+    border: 0;
+    border-radius: 0;
+    max-height: 291px;
+    padding: 0;
+    overflow: hidden;
+    img {
+      max-width: 550px;
+    }
+}
+.project, .project:hover {
+    color: #000;
+    margin: 0 0 40px;
+    text-decoration: none;
+    transition: color .5s;
+}
+
+.project h3, .project p, .about h2, .about p {
+    padding: 0 20px 0;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+//FOOTER//
 
 .footer {
   background-color: #fff;

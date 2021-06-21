@@ -14,6 +14,34 @@
   </head>
 
   <body>
+    <div class="header">
+      <div class="container">
+        <div class="row">
+          <div class="name col-4">
+            <%= image_tag("logo.png", size: "300x100", alt: "Airtlight-logo")%>
+          </div>
+          <div class="menu col-8">
+            <ul>
+              <li><a href="/">Accueil</a></li>
+              <li><a href="portfolio">Portfolio</a></li>
+              <li><a href="https://medium.com/about-codecademy">Blog</a></li>
+              <li><a href="about">A propos</a></li>
+              <li><a href="contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
     <%= yield %>
+    <div class="footer">
+      <div class="container">
+        <ul class="social_media">
+          <li><a class="github" href="#"><%= image_tag("facebook-icon.svg", size: "24x24", alt: "facebook-logo")%></a></li>
+          <li><a class="linkedin" href="#"><%= image_tag("linkedin-icon.svg", size: "24x24", alt: "linkedin-logo")%></a></li>
+          <li><a class="twitter" href="#"><%= image_tag("twitter-icon.svg", size: "24x24", alt: "twitter-logo")%></a></li>
+        </ul>
+        <p>© 2021 Ismael SANE</p>
+      </div>
+    </div>
   </body>
 </html>
