@@ -90,6 +90,12 @@ a.btn {
     transition: background-color .5s;
     width: 200px;
 }
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .main h2 {
+    font-size: 30px;
+  }
+}
 
 //PORTFOLIO PAGE//
 
